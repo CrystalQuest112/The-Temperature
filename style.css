@@ -1,0 +1,59 @@
+.temp {
+    font-size: 80px;
+    color: rgba(255, 237, 237, 0.845);
+}
+
+.element {
+    font-size: 60px;
+    color: rgba(255, 237, 237, 0.845);
+}
+
+h4 {
+    font-size: 40px;
+    color: rgba(255, 237, 237, 0.845);
+}
+
+.box {
+    box-sizing: border-box;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(0deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 0.8244388697861957) 50%, rgba(252, 176, 69, 1) 100%);
+    border: solidpx;
+    border-radius: 40px;
+    color: darkorange;
+    padding: 45px;
+    text-align: right;
+    margin: 5%;
+    max-width: 500px;
+
+}
+
+hr {
+    color: rgb(242, 240, 238);
+
+}
+
+button {
+    color: gray;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    border-color: darkorange;
+}
+
+button:hover {
+    color: rgba(160, 75, 92, 0.786);
+    background-color: rgb(131, 58, 180);
+
+}
+
+.hum {
+    color: rgba(160, 75, 92, 0.786);
+    font-size: 20px;
+
+}
+
+h3 {
+    color: rgba(160, 75, 92, 0.786);
+
+}
