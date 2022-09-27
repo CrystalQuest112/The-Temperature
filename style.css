@@ -1,4 +1,4 @@
-<style>.card {
+.card {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 8%;
     padding-top: 15%;
@@ -29,8 +29,8 @@ ul {
 .unit {
     font-size: 30px;
     position: absolute;
-    left: 70%;
-    bottom: 63%;
+    left: 63%;
+    bottom: 68%;
 }
 
 #time {
