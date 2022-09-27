@@ -1,59 +1,80 @@
-.temp {
-    font-size: 80px;
-    color: rgba(255, 237, 237, 0.845);
+<style>.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 8%;
+    padding-top: 15%;
+    margin: 10%;
+    border: none;
+    border-radius: 5%;
+    background: rgb(69, 58, 180);
+    background: linear-gradient(354deg,
+            rgba(69, 58, 180, 1) 0%,
+            rgba(253, 29, 126, 0.8814119397759104) 50%,
+            rgba(252, 176, 69, 1) 100%,
+            rgba(252, 176, 69, 1) 115%);
+
+    color: rgb(252, 240, 255);
 }
 
-.element {
-    font-size: 60px;
-    color: rgba(255, 237, 237, 0.845);
+h1 {
+    font-size: 200px;
+    position: relative;
+    left: 15%;
 }
 
-h4 {
-    font-size: 40px;
-    color: rgba(255, 237, 237, 0.845);
+ul {
+    list-style: none;
+    font-size: 15px;
 }
 
-.box {
-    box-sizing: border-box;
-    background: rgb(131, 58, 180);
-    background: linear-gradient(0deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 0.8244388697861957) 50%, rgba(252, 176, 69, 1) 100%);
-    border: solidpx;
-    border-radius: 40px;
-    color: darkorange;
-    padding: 45px;
-    text-align: right;
-    margin: 5%;
-    max-width: 500px;
-
+.unit {
+    font-size: 30px;
+    position: absolute;
+    left: 70%;
+    bottom: 63%;
 }
 
-hr {
-    color: rgb(242, 240, 238);
-
+#time {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: -35%;
 }
 
-button {
-    color: gray;
+#icon {
+    position: relative;
+    left: 35%;
+}
+
+#place {
+    font-size: 70px;
+    position: relative;
+    align-items: stretch;
+    left: 20%;
+}
+
+form {
+    position: relative;
+    left: 10%;
+}
+
+.sbutton {
+    color: rgb(69, 58, 180);
     background-color: white;
     border: none;
-    border-radius: 15px;
-    padding: 5px;
-    border-color: darkorange;
+    padding: 3px;
 }
 
-button:hover {
-    color: rgba(160, 75, 92, 0.786);
-    background-color: rgb(131, 58, 180);
-
+.geobtn {
+    background-color: rgb(69, 58, 180);
+    color: white;
+    border: none;
+    padding: 10px;
+    position: relative;
+    left: 30%;
 }
 
-.hum {
-    color: rgba(160, 75, 92, 0.786);
-    font-size: 20px;
-
-}
-
-h3 {
-    color: rgba(160, 75, 92, 0.786);
-
+.geobtn:hover {
+    background-color: white;
+    color: rgb(69, 58, 180);
 }
